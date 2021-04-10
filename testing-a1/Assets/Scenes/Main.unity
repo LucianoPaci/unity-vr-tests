@@ -840,6 +840,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2841089172031044320, guid: e77460e2b252440f99bdc2f310996343,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841089172031044320, guid: e77460e2b252440f99bdc2f310996343,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841089172031044321, guid: e77460e2b252440f99bdc2f310996343,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841089172031044321, guid: e77460e2b252440f99bdc2f310996343,
+        type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841089172031044321, guid: e77460e2b252440f99bdc2f310996343,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2841089172031044335, guid: e77460e2b252440f99bdc2f310996343,
         type: 3}
       propertyPath: player
@@ -924,6 +949,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6271080965170306335, guid: 9997764ad0df54626ac9380404699636,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6271080965170306335, guid: 9997764ad0df54626ac9380404699636,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6271080965170306335, guid: 9997764ad0df54626ac9380404699636,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6271080965661766260, guid: 9997764ad0df54626ac9380404699636,
         type: 3}
       propertyPath: speed
