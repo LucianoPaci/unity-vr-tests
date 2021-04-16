@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4389991169804200915}
   m_Layer: 0
   m_Name: Hand1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26,13 +26,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4389991169804200911}
-  m_LocalRotation: {x: 0.38268343, y: -0, z: -0, w: 0.92387956}
-  m_LocalPosition: {x: 2.6127415, y: 0.80914366, z: 1.9844228}
+  m_LocalRotation: {x: -0.38268343, y: 0, z: 0, w: 0.92387956}
+  m_LocalPosition: {x: 0, y: 0.34, z: -0.34}
   m_LocalScale: {x: 0.5, y: 1, z: 0.10000001}
   m_Children: []
   m_Father: {fileID: 4389991170389411544}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -45, y: 0, z: 0}
 --- !u!33 &4389991169804200913
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 4389991170315790573}
   m_Layer: 0
   m_Name: EnemyBody
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -120,7 +120,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4389991170315790575}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.6127415, y: 0.93914366, z: 2.6044228}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.5, y: 2.0676, z: 0.60445}
   m_Children: []
   m_Father: {fileID: 4389991170389411544}
@@ -199,8 +199,8 @@ GameObject:
   - component: {fileID: 4389991170389411551}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_TagString: Enemy
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -211,8 +211,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4389991170389411546}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.372742, y: -0.119143665, z: -0.77442276}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.15, y: -0.119143665, z: -0.77442276}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4389991170315790578}
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a2a48bc7fec4ea69bc49a40481e077, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.2
+  speed: 2
 --- !u!54 &4389991170389411551
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -264,7 +264,7 @@ GameObject:
   - component: {fileID: 4389991170518925689}
   m_Layer: 0
   m_Name: Hand2
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -277,7 +277,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4389991170518925685}
   m_LocalRotation: {x: 0.38268343, y: -0, z: -0, w: 0.92387956}
-  m_LocalPosition: {x: 2.6127415, y: 1.3591437, z: 3.014423}
+  m_LocalPosition: {x: 0, y: 0.34, z: 0.34}
   m_LocalScale: {x: 0.5, y: 1, z: 0.10000001}
   m_Children: []
   m_Father: {fileID: 4389991170389411544}

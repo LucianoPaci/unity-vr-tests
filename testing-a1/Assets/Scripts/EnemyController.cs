@@ -21,11 +21,6 @@ public class EnemyController : MonoBehaviour
         {
             Destroy(gameObject); // Destroy ourself
         }
-        if (other.gameObject.CompareTag("Player"))
-        {
-            Destroy(other.gameObject); // Destroy ourself
-            Debug.Log("KILLED");
-
-        }
+       
     }
 }
