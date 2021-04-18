@@ -7,7 +7,8 @@ public class GameManager : MonoBehaviour
 {
     public GameObject Canvas;
     public GameObject Enemy;
-    public GameObject Ball; 
+    public GameObject Ball;
+    public GameObject Player;
     public static Action OnRestart;
 
     private void OnEnable()
@@ -24,6 +25,7 @@ public class GameManager : MonoBehaviour
     {
         Canvas.SetActive(true);
         Enemy.SetActive(false);
+        Player.GetComponent<PlayerController>().ResetPosition();
     }
 
 
@@ -32,7 +34,7 @@ public class GameManager : MonoBehaviour
         Canvas.SetActive(false);
         Enemy.GetComponent<EnemyController>().TeleportEnemy();
         Enemy.SetActive(true);
-
+        Player.GetComponent<PlayerController>().ResetPosition();
         if (OnRestart != null)
         {
             OnRestart();

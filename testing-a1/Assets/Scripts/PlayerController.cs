@@ -37,4 +37,9 @@ public class PlayerController : MonoBehaviour
 
         }
     }
+
+    public void ResetPosition ()
+    {
+        transform.position = new Vector3(0f, 1f, 0f);
+    }
 }
