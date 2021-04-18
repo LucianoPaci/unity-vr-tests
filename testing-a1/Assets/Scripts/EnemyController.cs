@@ -27,13 +27,13 @@ public class EnemyController : MonoBehaviour
         {
             //Destroy(gameObject); // Destroy ourself
 
+
+            if (OnEnemyDied != null)
+            {
+                OnEnemyDied();
+
+            }
             TeleportEnemy();
-
-            //if(OnEnemyDied != null)
-            //{
-            //    OnEnemyDied();
-
-            //}
         }
 
     }
