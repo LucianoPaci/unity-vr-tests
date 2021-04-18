@@ -26,7 +26,7 @@ public class ObjectPicker : MonoBehaviour
         //ChangeMaterial(distance);
         RandomTeleport(distance);
 
-       
+
     }
 
     void ChangeColor(float dist)
@@ -35,11 +35,11 @@ public class ObjectPicker : MonoBehaviour
      Color.green : Color.red;
     }
 
-    void ChangeMaterial (float dist)
+    void ChangeMaterial(float dist)
     {
-        if(looking)
+        if (looking)
         {
-            if(dist <= minDistance)
+            if (dist <= minDistance)
             {
                 if (Input.GetButtonDown("Fire2") || Input.GetButtonDown("Fire3") || Input.GetButtonDown("TopTrigger"))
                 {
@@ -51,7 +51,7 @@ public class ObjectPicker : MonoBehaviour
                 }
             }
         }
-      
+
     }
     #region IGvrGazeResponder implementation
     /// Called when the user is looking on a GameObject with this script,
@@ -93,10 +93,10 @@ public class ObjectPicker : MonoBehaviour
     {
         if (looking)
         {
-            if(dist <= minDistance )
+            if (dist <= minDistance)
             {
-                    if (Input.GetButtonDown("Fire1") || Input.GetButtonDown("BottomTrigger"))
-                    {
+                if (Input.GetButtonDown("Fire1") || Input.GetButtonDown("BottomTrigger"))
+                {
                     int sibIdx = transform.GetSiblingIndex();
                     int numSibs = transform.parent.childCount;
                     sibIdx = (sibIdx + Random.Range(1, numSibs)) % numSibs;
@@ -133,7 +133,7 @@ public class ObjectPicker : MonoBehaviour
                 {
                     print("joystick 1 button " + i);
 
-                    if(Input.GetButtonDown("BottomTrigger"))
+                    if (Input.GetButtonDown("BottomTrigger"))
                     {
                         print("BOTTOM TRIGGER!");
                     }
@@ -144,7 +144,7 @@ public class ObjectPicker : MonoBehaviour
                 }
             }
         }
-        
+
     }
     #endregion
 
@@ -199,6 +199,6 @@ public class ObjectPicker : MonoBehaviour
         // SetGazedAt(false);
         looking = false;
 
-        }
+    }
 
 }
