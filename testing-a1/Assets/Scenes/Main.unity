@@ -278,6 +278,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 6271080966129299563}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &633697786 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2841089172920613748, guid: e77460e2b252440f99bdc2f310996343,
+    type: 3}
+  m_PrefabInstance: {fileID: 2841089172708370470}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -370,6 +376,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &808376719 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2841089172667484696, guid: e77460e2b252440f99bdc2f310996343,
+    type: 3}
+  m_PrefabInstance: {fileID: 2841089172708370470}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1273847822 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2841089172031044324, guid: e77460e2b252440f99bdc2f310996343,
+    type: 3}
+  m_PrefabInstance: {fileID: 2841089172708370470}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1418036525
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -497,6 +515,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainMenuCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 5295347858040059717, guid: e222a455b2c014fa4a11181fa45bbcf5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e222a455b2c014fa4a11181fa45bbcf5, type: 3}
 --- !u!1001 &1971144386
@@ -593,6 +616,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 471990812}
+    - target: {fileID: 2841089172031044335, guid: e77460e2b252440f99bdc2f310996343,
+        type: 3}
+      propertyPath: obj
+      value: 
+      objectReference: {fileID: 1273847822}
     - target: {fileID: 2841089172506601817, guid: e77460e2b252440f99bdc2f310996343,
         type: 3}
       propertyPath: m_Name
@@ -658,11 +686,21 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 471990812}
+    - target: {fileID: 2841089172667484775, guid: e77460e2b252440f99bdc2f310996343,
+        type: 3}
+      propertyPath: obj
+      value: 
+      objectReference: {fileID: 808376719}
     - target: {fileID: 2841089172920613747, guid: e77460e2b252440f99bdc2f310996343,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 471990812}
+    - target: {fileID: 2841089172920613747, guid: e77460e2b252440f99bdc2f310996343,
+        type: 3}
+      propertyPath: obj
+      value: 
+      objectReference: {fileID: 633697786}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e77460e2b252440f99bdc2f310996343, type: 3}
 --- !u!1001 &6271080966129299563
